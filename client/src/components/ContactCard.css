@@ -1,0 +1,66 @@
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    background: #505050;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    position: relative;
+    padding: 10px;
+    width: 220px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+    font-size: 0.8rem;
+    color: #aaa;
+    margin-bottom: 0.5rem;
+}
+
+.test-muted {
+    color: #aaa;
+}
+
+.btn-primary {
+    background: #ea00ff;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-danger {
+    background: #ff0000;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.select-checkbox {
+    display: flex;
+    justify-content: end;
+}
